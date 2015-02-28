@@ -35,7 +35,7 @@
     [self.view addSubview:_flTextField];
 }
 - (void)addTextView{
-    CGRect frame = CGRectMake(20.f, 80.f, 273.f, 60.f);
+    CGRect frame = CGRectMake(20.f, 100.f, 273.f, 80.f);
     _flTextView = [[RPFloatingPlaceholderTextView alloc]initWithFrame:frame];
     _flTextView.floatingLabelActiveTextColor = [UIColor blueColor];
     _flTextView.floatingLabelInactiveTextColor = [UIColor grayColor];
